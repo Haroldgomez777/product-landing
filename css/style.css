@@ -1,0 +1,57 @@
+.logo {
+  width:1vw;
+  top:0;
+}
+
+#header-img {
+  width:3vw;
+  display: flex;
+  margin-top:15px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  z-index:1;
+}
+#nav-bar {
+  position: relative;
+  top:0;
+}
+
+
+#nav-bar ul{
+  width:35vw;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+#hero {
+  position: relative;
+  margin-top:100px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:100%;
+}
+
+#video {
+width:50%;
+margin-top:10vh;
+}
+
+@media (max-width:600px) {
+#video {
+width:100%;
+margin-top:10vh;
+}
+}
+
